@@ -1,3 +1,26 @@
+# William Light coding-challenge submission notes
+
+My submission consists of the following five files:
+
+README.md
+run.sh
+src/running_median.py
+venmo_input/venmo-trans.txt
+venmo_output/output.txt
+
+The shell script is executed from it's directory using ./run.sh command.
+The shell script runs the python3 program src/running_median.py reading from
+input file venmo_input/venmo-trans.txt and overwriting venmo_output/output.txt.
+
+The python3 program uses the following modules:
+    sys, json, time, datetime, statistics
+
+(Note: I'm not sure if statistics implementation of median() is good for big data or not.)
+
+Developed and tested using Python 3.5.0 running on Mac OS X Version 10.9.5.
+Processor 2.3 GHz Intel Core i7
+Memory 16 GB 1600 MHz DDR3
+
 # Table of Contents
 
 1. [Challenge Summary] (README.md#challenge-summary)
